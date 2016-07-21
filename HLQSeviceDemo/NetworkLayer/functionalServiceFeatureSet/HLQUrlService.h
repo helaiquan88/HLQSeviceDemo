@@ -8,6 +8,10 @@
 
 #import "HLQService.h"
 
+/**
+ *  HLQUrlService Responsible for managing all requests for a function module.
+ */
+
 @interface HLQUrlService : HLQService
 
 /**

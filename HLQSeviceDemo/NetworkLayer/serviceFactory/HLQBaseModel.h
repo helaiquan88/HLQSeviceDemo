@@ -11,8 +11,8 @@
 @interface HLQBaseModel : NSObject
 
 /// common model parameter
-@property (nonatomic,strong) NSString *respcode;
-@property (nonatomic,strong) NSString *respdesc;
+@property (nonatomic,strong) NSString *code;
+@property (nonatomic,strong) NSString *desc;
 
 /// the value for "result" key is array
 @property (nonatomic, strong) NSArray *responseResultList;
